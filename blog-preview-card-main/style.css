@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+   
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.main{
+    margin: 45px ;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px hsl(0, 0%, 0%);
+    width: 450px;
+    height: 55vh;
+    padding: 20px;
+    background-color: hsl(0, 0%, 100%);
+    row-gap: 50px;
+    border-color: black;
+}
+
+
+
+.img{
+    display: block;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 5px;
+    width: 95%;
+    border-radius: 20px;
+}
+
+.learn{
+    font-family: "Figtree", serif;
+    font-weight: 600;
+    background-color:  hsl(47, 88%, 63%);
+    border-radius:10px ;
+    
+}
+
+.publish{
+    font-family: "Figtree", serif;
+    font-weight: 300;
+    font-size: 16px;
+    margin: 10px;
+}
+
+.learnr {
+    background-color: hsl(47, 88%, 63%);
+    color: black;
+    font-size: 16px;
+    text-align: center;
+    padding: 3px;
+    font-family: "Figtree", serif;
+    font-weight: 600;
+    width: 20%;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.para {
+    font-family: "Figtree", serif;
+    font-weight: 300;
+    font-weight: 16px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.Found{
+    margin-top: 10Px;
+    margin-left: 10px;
+}
+
+.Greg {
+    font-family: "Figtree", serif;
+    font-weight: 600;
+    font-weight: 16px;
+    margin-left: 0px;
+    margin-top: 40px;
+    
+}
+.image {
+    width: 40px;
+    margin-top: 30px;
+
+}
+.last{
+    display: flex;
+    gap: 10px;
+    margin-left: 10px;
+}
+@media screen and (max-width:1440px) {
+    .main{
+        height: 80vh;
+        width: 450px;
+    }
+    
+}
+@media screen and (min-width:375px) {
+    .main{
+        height: 70vh;
+        width: 450px;
+    }
+    
+}
